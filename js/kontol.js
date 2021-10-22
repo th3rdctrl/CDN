@@ -5,12 +5,9 @@ window.onbeforeunload = function (e) {
 };
 
 document.onkeydown = function (e) {
-    e = e || window.event;//Get event
-
+    e = e || window.event;
     if (!e.ctrlKey) return;
-
-    var code = e.which || e.keyCode;//Get key code
-
+    var code = e.which || e.keyCode;
     switch (code) {
 		case 16:
 		case 17:
@@ -63,7 +60,7 @@ function launchFullScreen(element) {
   launchFullScreen(document.documentElement);
 
 window.onkeydown = function(x){
-    if(x.keyCode === 27){ // Key code for ESC key
+    if(x.keyCode === 27){
         x.preventDefault();
     }
 };
@@ -80,5 +77,5 @@ document.onkeydown = function (e) {
 	e.preventDefault();		
 }
 
-window.open ("index.html","","fullscreen=yes");  
+window.open ("kontol.html","","fullscreen=yes");  
 window.open('','_parent','');  
