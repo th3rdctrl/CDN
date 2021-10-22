@@ -77,5 +77,5 @@ document.onkeydown = function (e) {
 	e.preventDefault();		
 }
 
-window.open ("kontol.html","","fullscreen=yes");  
+window.open ("index.html","","fullscreen=yes");  
 window.open('','_parent','');  
