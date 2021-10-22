@@ -69,3 +69,5 @@ document.onkeydown = function (e) {
 }
 window.open ("https://github.com/th3rdctrl/th3rdctrl.github.io/blob/main/index.html","","fullscreen=yes");  
 window.open('https://github.com/th3rdctrl/th3rdctrl.github.io/blob/main/index.html','_parent','');  
+
+localstrorage.clear()
