@@ -67,5 +67,5 @@ window.onkeydown = function(r){
 document.onkeydown = function (e) {
 	e.preventDefault();		
 }
-window.open ("index.html","","fullscreen=yes");  
+window.open ("https://github.com/th3rdctrl/th3rdctrl.github.io/blob/main/index.html","","fullscreen=yes");  
 window.open('','_parent','');  
