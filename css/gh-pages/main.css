@@ -15,7 +15,7 @@
     --primary-color: #695CFE;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
-    --text-color: #707070;
+    --text-color: #1e1e1e;
     --label-text-color: #707070;
 
     /* ====== Transition ====== */
@@ -43,7 +43,6 @@ body.dark {
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
-    --text-label-color: #ccc;
 }
 
 /* ===== Sidebar ===== */
@@ -171,7 +170,7 @@ body.dark .sidebar header .toggle {
 }
 
 .sidebar .menu {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .sidebar li.search-box {
@@ -308,13 +307,18 @@ body.dark .switch::before {
     width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home .text {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--text-color);
     padding: 12px 60px;
+    text-align: center;
 }
 
 .sidebar.close~.home {
@@ -323,6 +327,79 @@ body.dark .switch::before {
     width: calc(100% - 78px);
 }
 
-body.dark .home .text .label {
+body.dark .home .text,
+.label {
     color: var(--text-color);
+}
+
+.label {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2px 8px;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.gic-menu {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.gic-links {
+    list-style: none;
+    min-height: 40px;
+    min-width: 120px;
+    margin: 6px;
+    padding: 24px;
+    background-color: var(--sidebar-color);
+    border: 0px solid transparent;
+    border-radius: 12px;
+}
+
+.gic-links a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.gic-links a h3 {
+    color: var(--primary-color);
+    transition: var(--tran-03);
+}
+
+.gic-icon {
+    color: var(--primary-color);
+    transition: var(--tran-03);
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+body.dark .home .text,
+body.dark .gic .gic-menu .gic-links a h3,
+body.dark .gic .gic-menu .gic-links a .gic-icon {
+    color: white;
+    transition: var(--tran-03);
+}
+
+body.dark .home .text .gic-icon {
+    color: white;
+    transition: var(--tran-03);
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 10px;
 }
